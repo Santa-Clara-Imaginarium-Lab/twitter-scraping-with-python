@@ -2,10 +2,10 @@ import tweepy as tw
 import pandas as pd
 import openpyxl
 
-consumer_key = [INSERT CONSUMER KEY]
-consumer_secret = [INSERT CONSUMER SECRET]
-access_token = [INSERT ACCESS TOKEN]
-access_token_secret = [INSERT ACCESS TOKEN SECRET]
+consumer_key = '[INSERT CONSUMER KEY]'
+consumer_secret = '[INSERT CONSUMER SECRET]'
+access_token = '[INSERT ACCESS TOKEN]'
+access_token_secret = '[INSERT ACCESS TOKEN SECRET]'
 
 auth = tw.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
