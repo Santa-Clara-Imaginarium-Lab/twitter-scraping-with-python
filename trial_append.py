@@ -3,20 +3,17 @@ import openpyxl as px
 import schedule
 import time
 
-consumer_key = [INSERT CONSUMER KEY]
-consumer_secret = [INSERT CONSUMER SECRET]
-access_token = [INSERT ACCESS TOKEN]
-access_token_secret = [INSERT ACCESS TOKEN SECRET]
+consumer_key = "[INSERT CONSUMER KEY]"
+consumer_secret = "[INSERT CONSUMER SECRET]"
+access_token = "[INSERT ACCESS TOKEN]"
+access_token_secret = "[INSERT ACCESS TOKEN SECRET]"
 
 auth = tw.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tw.API(auth)
-
-search_words = "#freespeech"
-date_since = "2021-7-5"
-
+ 
 def append():
-    tweets = tw.Cursor(api.search, q=search_words, lang="en", date=date_since, tweet_mode="extended").items(5)
+    tweets = tw.Cursor(api.search, q="#freespeech", lang="en", date="2021-7-5", tweet_mode="extended").items(5)
 
     text = []
     likes = []
@@ -27,18 +24,18 @@ def append():
         likes.append(tweet.favorite_count)
         time.append(tweet.created_at)
 
-    wb = px.load_workbook('speech_test.xlsx')
+    wb = px.load_workbook("speech_test.xlsx")
     ws = wb.active
 
     rows = []
 
     for i in range(5):
-        rows.append([' ', text[i], likes[i], time[i]])
+        rows.append([" ", text[i], likes[i], time[i]])
 
     for row in rows:
         ws.append(row)
 
-    wb.save('speech_test.xlsx')
+    wb.save("speech_test.xlsx")
     wb.close()
 
 schedule.every(1).minutes.do(append)
