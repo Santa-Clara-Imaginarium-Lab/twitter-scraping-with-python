@@ -38,7 +38,7 @@ This guide seeks to teach you how to get started using **Python** requests from 
 - Once you have **Python** and an **IDE** installed, you'll want to install the necessary packages to web scraping using the **Twitter API**. You can either do this through terminal or PyCharm.
   - 1- Using terminal, enter the command `pip3 install [insert package name`
     - (ex. `pip3 install Tweepy`)
-    - [video example using `pip3 install` in terminal](https://drive.google.com/file/d/1WpGRgykJr-0jzvrg7j1fhmTNN2kUyw5H/view?usp=sharing) (i already had Tweepy installed, so the output might look different)
+    - [video example using `pip3 install` in terminal](https://drive.google.com/file/d/1WpGRgykJr-0jzvrg7j1fhmTNN2kUyw5H/view?usp=sharing) (I already had **Tweepy** installed, so the output might look different)
   - 2- Go through **PyCharm**: in bottom menu bar, select **Python** packages, search for desired package, and click install
     - [video example installing in PyCharm](https://drive.google.com/file/d/1ocNvBiMj_V3ByNAqFzsf28Vig28mePNc/view?usp=sharing)
 - Packages to install (some might already be installed if you install through **Anaconda**, but entering the command to install them won't hurt anything)
@@ -51,16 +51,15 @@ This guide seeks to teach you how to get started using **Python** requests from 
 
 # YOUR FIRST PYTHON PROGRAM
 
-- This example will use **PyCharm**, but the steps should be essentially the same no matter what **IDE** you choose to use
-- [hello world video walkthrough](https://drive.google.com/file/d/1-xySKW52zgVfXdLo7U3Zw1u8EAU4Lpab/view?usp=sharing)
+- This example will use **PyCharm**, but the steps should be essentially the same no matter what **IDE** you choose to use in [this hello world video walkthrough](https://drive.google.com/file/d/1-xySKW52zgVfXdLo7U3Zw1u8EAU4Lpab/view?usp=sharing)
 - In my example, I wrote code to print hello world -- `print('hello world')` -- in order to run the program, open terminal (either in your **IDE** or a normal terminal window), and enter the command: `Python3 filename.py`
   - Common pitfall: if you are running the program outside of your **IDE**, you will get an error saying something like there is no file with that name. To fix this, you have to make sure your terminal is pointed at the right folder. For example, if I had a file called `main.py `stored in a file called `PythonProjects` which was saved onto my desktop, you would first have to enter the following command into terminal before running your code: `cd Desktop/PythonProjects`
 - If you're completely new to coding, it will probably be best to use a course to learn the basic structures you'll being using (ie. loops, conditional statements)
   - **Codeacademy** is a great resource that offers both free and paid courses
   - All **SCU** students have free access to **LinkedIn Learning**, which offers some really cool classes-- you'll have to fill out [this form](https://forms.gle/VZaUtmm4Kxd44ajy5) in order to get access
   - If you prefer to read info rather than watch it, [this course](https://realpython.com/learning-paths/python3-introduction/) from **Real Python** will be very helpful
-  - While youtube is also a great free resource, taking a course with some kind of structure is usually a better option to avoid having a scattered experience that repeats some bits of information and leaves out other bits
-- If you have experience with coding but not in Python, [W3Schools](https://www.w3schools.com/python/) is a great resource for quickly looking up syntax
+  - While **YouTube** is also a great free resource, taking a course with structure is usually a better option to avoid having a scattered experience that repeats information and leaves out other bits
+- If you have experience with coding but not in **Python**, [W3Schools](https://www.w3schools.com/python/) is a great resource for understanding syntax
 
 # MAKING YOUR FIRST REQUEST USING Tweepy
 
