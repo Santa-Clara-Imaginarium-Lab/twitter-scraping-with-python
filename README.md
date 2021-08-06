@@ -11,12 +11,12 @@ This guide seeks to teach you how to get started using **Python** requests from 
 - Collecting Twitter data is done through the **Twitter API**. In order to use the Twitter API, you'll need to [apply for developer access](https://developer.twitter.com/en/apply-for-access):
 - If you're an undergrad, you don't have access to the academic research track, so just apply for the standard developer track
 - In order to apply, you'll either need to log in to your account or create one
-  - It is recommended to apply using an existing Twitter account, in our experience they are more likely to get approved, and get approved faster
+  - It is recommended to apply using an existing **Twitter** account, in our experience they are more likely to get approved, and get approved faster
 
-# USING TWITTER DEVELOPER TO GAIN ACCESS TO THE API
+# USING TWITTER DEVELOPER TO GAIN API ACCESS
 
-- Start at the Twitter [developer portal](https://twitter.com/login?redirect_after_login=https%3A%2F%2Fdeveloper.twitter.com%2Fen%2Fportal%2Fdashboard). This is how you will create a project and app in order to get the necessary access and bearer tokens you need to write code that accesses information using the **Twitter API**
-- Gathering Twitter data to investigate trends related to toxicity, community building, platform governance and other related issues
+- Start at the **Twitter** [developer portal](https://twitter.com/login?redirect_after_login=https%3A%2F%2Fdeveloper.twitter.com%2Fen%2Fportal%2Fdashboard). This is how you will create a project and app in order to get the necessary access and bearer tokens you need to write code that accesses information using the **Twitter API**
+- Gathering **Twitter** data to investigate trends related to toxicity, community building, platform governance and other related issues
 - Create a project, then an app, and you'll be presented with your keys. [Here's the video walkthrough](https://drive.google.com/file/d/1Wva--0kS19M7yXdzhJW_65kUdPPKhjkE/view?usp=sharing)
 - After initial setup, your keys can be accessed by hitting the key icon next to the app name in your project dashboard.
   - Your keys will be hidden after they're first displayed to you, so you should either take a screenshot or save them as variables in a file so you don't have to continue to regenerate them.
@@ -53,7 +53,7 @@ This guide seeks to teach you how to get started using **Python** requests from 
 
 - This example will use **PyCharm**, but the steps should be essentially the same no matter what **IDE** you choose to use in [this hello world video walkthrough](https://drive.google.com/file/d/1-xySKW52zgVfXdLo7U3Zw1u8EAU4Lpab/view?usp=sharing)
 - In my example, I wrote code to print hello world -- `print('hello world')` -- in order to run the program, open terminal (either in your **IDE** or a normal terminal window), and enter the command: `Python3 filename.py`
-  - Common pitfall: if you are running the program outside of your **IDE**, you will get an error saying something like there is no file with that name. To fix this, you have to make sure your terminal is pointed at the right folder. For example, if I had a file called `main.py `stored in a file called `PythonProjects` which was saved onto my desktop, you would first have to enter the following command into terminal before running your code: `cd Desktop/PythonProjects`
+  - Common pitfall: if you are running the program outside of your **IDE**, you will get an error saying something like there is no file with that name. To fix this, you have to make sure your terminal is pointed at the right folder. For example, if I had a file called `main.py` stored in a file called `PythonProjects` which was saved onto my desktop, you would first have to enter the following command into terminal before running your code: `cd Desktop/PythonProjects`
 - If you're completely new to coding, it will probably be best to use a course to learn the basic structures you'll being using (ie. loops, conditional statements)
   - **Codeacademy** is a great resource that offers both free and paid courses
   - All **SCU** students have free access to **LinkedIn Learning**, which offers some really cool classes-- you'll have to fill out [this form](https://forms.gle/VZaUtmm4Kxd44ajy5) in order to get access
@@ -85,7 +85,7 @@ This guide seeks to teach you how to get started using **Python** requests from 
     <img src="https://media.discordapp.net/attachments/778418042702528532/873321918986600529/unknown.png">
 </p> 
 
-- _From Tweepy's documentation_
+- _From **Tweepy's** documentation_
 
     - Example search:
 
